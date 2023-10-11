@@ -5,7 +5,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    color: white;
 }
+body{
+    background: #363062;
+}
+
 header{
     width: 100%;
     display: flex;
@@ -16,9 +21,10 @@ header h1{
     margin-top: 5px;
 }
 header h1 .naslepo {
-    background-color: #ff7300;
+    background-color: #F99417;
+    color: black;
     border-radius: 5px;
-    padding: 2px;
+    padding: 3px;
 }
 .header-description{
     margin-top: 5px;
@@ -28,24 +34,21 @@ header h1 .naslepo {
     width: 60%;
     display: flex;
     justify-content: space-between;
-    border-radius: 3px;
+    border-radius: 10px;
     gap: 25px;
     padding: 20px;
     margin: 40px auto;
-    outline: 1.5px solid black;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.518);
+    background-color: #312b58;
     transition: 0.5s;
-}
-.card:hover{
-    box-shadow: 5px 5px 20px rgb(202, 202, 202);
-
 }
 .card img{
     width: 300px;
     height: auto;
+    border-radius: 10px;
 }
 
-.divider{
-    height: 100%;
-    width:4px;
-    background-color: rgb(153, 153, 153);
+.description h2{
+    margin-bottom: 10px;
+    color: #F99417;
 }
