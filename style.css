@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@300&display=swap');
 
-*{
+*, ul, li{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,7 +8,8 @@
     color: white;
 }
 body{
-    background: #363062;
+    padding-top: 10px;
+    background: #241e51;
 }
 
 header{
@@ -39,8 +40,15 @@ header h1 .naslepo {
     padding: 20px;
     margin: 40px auto;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.518);
-    background-color: #312b58;
+    background-color: #3a3562;
     transition: 0.5s;
+}
+.price{
+    position: relative;
+    left: 7px;
+    padding: 3px 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 .card img{
     width: 300px;
@@ -50,5 +58,5 @@ header h1 .naslepo {
 
 .description h2{
     margin-bottom: 10px;
-    color: #F99417;
+    color: #FFF;
 }
